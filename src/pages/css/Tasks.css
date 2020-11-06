@@ -1,0 +1,25 @@
+.pageContainer {
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.imgContainer {
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('/assets/imgs/tasks-today.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.eyeIcon {
+    width: 25px;
+    height: 25px;
+}
+
+.tasksContainer {
+    flex: 7
+}
