@@ -1,6 +1,6 @@
 {
   "appId": "io.ionic.starter",
-  "appName": "ionic-react-app",
+  "appName": "TasksIonic",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "build",

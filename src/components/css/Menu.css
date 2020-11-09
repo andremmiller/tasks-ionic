@@ -1,0 +1,11 @@
+.mainMenu {
+    --width: 210px !important;
+}
+
+.userInfoMenu {
+    padding: 20px
+}
+
+.menuItem {
+    text-decoration: none;
+}

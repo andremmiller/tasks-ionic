@@ -6,13 +6,50 @@
     flex-direction: column;
 }
 .imgContainer {
-    flex: 3;
-    display: flex;
-    justify-content: space-between;
-    background-image: url('/assets/imgs/tasks-today.jpg');
+    height: 30%;
     background-size: cover;
     color: #fff;
     padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.todayImage {
+    background-image: url('/assets/imgs/tasks-today.jpg');
+}
+
+.tomorrowImage {
+    background-image: url('/assets/imgs/tasks-tomorrow.jpg');
+}
+
+.weekImage {
+    background-image: url('/assets/imgs/tasks-week.jpg');
+}
+
+.monthImage {
+    background-image: url('/assets/imgs/tasks-month.jpg');
+}
+
+.todayIcon {
+    color: #B13B44
+}
+
+.tomorrowIcon {
+    color: #C9742E
+}
+
+.weekIcon {
+    color: #15721E
+}
+
+.monthIcon {
+    color: #1631BE
+}
+
+.imgContainer__top {
+    display: flex;
+    justify-content: space-between;
 }
 
 .eyeIcon {
@@ -20,6 +57,31 @@
     height: 25px;
 }
 
+.addIcon {
+    width: 35px;
+    height: 35px;
+}
+
+.menuIcon {
+    width: 25px;
+    height: 25px;
+}
+
 .tasksContainer {
-    flex: 7
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tasksList {
+    flex: 9;
+    max-height: 80%;
+    overflow-y: scroll;
+}
+
+.addIconContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

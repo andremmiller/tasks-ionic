@@ -17,16 +17,19 @@ import '@ionic/react/css/text-transformation.css';
 import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
 
-import Tasks from './pages/Tasks'
+import Routes from './config/routes'
 
 /* Theme variables */
 import './theme/variables.css';
 
 import './App.css'
+import { UserProvider } from './context/UserContext';
 
 const App = () => (
   <IonApp>
-    <Tasks />
+    <UserProvider>
+      <Routes />
+    </UserProvider>
   </IonApp>
 );
 
